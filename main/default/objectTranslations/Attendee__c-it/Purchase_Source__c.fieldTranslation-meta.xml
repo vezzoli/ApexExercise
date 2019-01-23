@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Purchase Source --></label>
+    <name>Purchase_Source__c</name>
+    <picklistValues>
+        <masterLabel>3rd Party Ticket Vendor</masterLabel>
+        <translation><!-- 3rd Party Ticket Vendor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Box Office</masterLabel>
+        <translation><!-- Box Office --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facebook</masterLabel>
+        <translation><!-- Facebook --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Official Website</masterLabel>
+        <translation><!-- Official Website --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Installs__c</fullName>
+    <description>Any special installation requests for this particular stage</description>
+    <externalId>false</externalId>
+    <label>Special Installs</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lasers</fullName>
+                <default>false</default>
+                <label>Lasers</label>
+            </value>
+            <value>
+                <fullName>Smoke Machines</fullName>
+                <default>false</default>
+                <label>Smoke Machines</label>
+            </value>
+            <value>
+                <fullName>Pyrotechnics</fullName>
+                <default>false</default>
+                <label>Pyrotechnics</label>
+            </value>
+            <value>
+                <fullName>Art Installation</fullName>
+                <default>false</default>
+                <label>Art Installation</label>
+            </value>
+            <value>
+                <fullName>Extra Subwoofers</fullName>
+                <default>false</default>
+                <label>Extra Subwoofers</label>
+            </value>
+            <value>
+                <fullName>Multiple Drumsets</fullName>
+                <default>false</default>
+                <label>Multiple Drumsets</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

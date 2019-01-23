@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bossanova_Bands</fullName>
+    <columns>NAME</columns>
+    <columns>Manager_Phone_Number__c</columns>
+    <columns>Twitter_Handle__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Genre__c</field>
+        <operation>equals</operation>
+        <value>Bossanova</value>
+    </filters>
+    <label>Bossanova Bands</label>
+</ListView>

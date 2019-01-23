@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Special equipment available --></label>
+    <name>Special_equipment_available__c</name>
+    <picklistValues>
+        <masterLabel>Fireworks</masterLabel>
+        <translation><!-- Fireworks --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fog Machines</masterLabel>
+        <translation><!-- Fog Machines --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lasers</masterLabel>
+        <translation><!-- Lasers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speakers</masterLabel>
+        <translation><!-- Speakers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spotlights</masterLabel>
+        <translation><!-- Spotlights --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sub-woofers</masterLabel>
+        <translation><!-- Sub-woofers --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

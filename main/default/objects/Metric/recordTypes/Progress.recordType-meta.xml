@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Progress</fullName>
+    <active>true</active>
+    <description>Misurare il raggiungimento di un obiettivo in base a quanto è stato completato rispetto al valore target. Ideale per tenere traccia di cifre e percentuali accurate. Ad esempio: convertire 50 lead o raggiungere il 100% di clienti soddisfatti.</description>
+    <label>Avanzamento</label>
+</RecordType>

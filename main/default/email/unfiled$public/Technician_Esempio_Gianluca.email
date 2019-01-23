@@ -1,0 +1,14 @@
+Hello {!Maintenance_Ticket__c.Technician__c},
+
+The maintenance ticket "{!Maintenance_Ticket__c.Name}" has been assigned to you.
+
+What does it entail?
+{!Maintenance_Ticket__c.Description__c}
+
+Priority?
+{!Maintenance_Ticket__c.Priority__c}
+
+Please mark your open task as closed in order to close out the ticket.
+
+Thanks!
+Festival Management

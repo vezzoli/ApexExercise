@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Genre --></label>
+    <name>Genre__c</name>
+    <picklistValues>
+        <masterLabel>Bossanova</masterLabel>
+        <translation><!-- Bossanova --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Electronic</masterLabel>
+        <translation><!-- Electronic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Indie</masterLabel>
+        <translation><!-- Indie --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rock</masterLabel>
+        <translation><!-- Rock --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Samba</masterLabel>
+        <translation><!-- Samba --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

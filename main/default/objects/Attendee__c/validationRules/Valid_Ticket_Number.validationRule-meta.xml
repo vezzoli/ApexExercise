@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_Ticket_Number</fullName>
+    <active>true</active>
+    <description>regola di limitazione dell&#39;acquisto</description>
+    <errorConditionFormula>Tickets_Purchased__c  &lt; 1 || Tickets_Purchased__c &gt; 8</errorConditionFormula>
+    <errorMessage>I biglietti acquistabili sono compresi tra 1 e 8</errorMessage>
+</ValidationRule>

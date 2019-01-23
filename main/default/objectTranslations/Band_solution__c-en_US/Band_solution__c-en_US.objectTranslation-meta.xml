@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Band (solution)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bands (solution)</value>
+    </caseValues>
+    <layouts>
+        <layout>Band (solution) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Special Requests --></label>
+            <section>Special Requests</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

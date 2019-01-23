@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Festival App (Solution)</label>
+    <tabs>Attendee_solution__c</tabs>
+    <tabs>Band_solution__c</tabs>
+    <tabs>Festival_solution__c</tabs>
+    <tabs>Set_Time_solution__c</tabs>
+    <tabs>Stage_solution__c</tabs>
+    <tabs>Maintenance_Ticket_solution__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+</CustomApplication>

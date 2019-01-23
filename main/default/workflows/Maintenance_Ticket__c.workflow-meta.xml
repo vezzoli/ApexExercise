@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>email_Technician</fullName>
+        <description>email Technician</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Technician__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/SupportCaseAssignmentNotification</template>
+    </alerts>
+    <alerts>
+        <fullName>email_Technician_Gianluca</fullName>
+        <description>email Technician Gianluca</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Technician__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Technician_Esempio_Gianluca</template>
+    </alerts>
+    <rules>
+        <fullName>Maintenance Ticket</fullName>
+        <actions>
+            <name>email_Technician_Gianluca</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>IF(ISNULL(Technician__r.Email)  , False, True)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

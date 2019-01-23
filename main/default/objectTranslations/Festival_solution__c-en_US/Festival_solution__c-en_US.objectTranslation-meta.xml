@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Festival (solution)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Festivals (solution)</value>
+    </caseValues>
+    <layouts>
+        <layout>Festival (solution) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Tickets sold cannot exceed capacity. --></errorMessage>
+        <name>Tickets_sold_cannot_exceed_capacity</name>
+    </validationRules>
+</CustomObjectTranslation>

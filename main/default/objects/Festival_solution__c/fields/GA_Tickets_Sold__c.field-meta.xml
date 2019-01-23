@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GA_Tickets_Sold__c</fullName>
+    <externalId>false</externalId>
+    <label>GA Tickets Sold</label>
+    <summarizedField>Attendee_solution__c.Tickets_purchased__c</summarizedField>
+    <summaryFilterItems>
+        <field>Attendee_solution__c.Ticket_Type__c</field>
+        <operation>equals</operation>
+        <value>General Admission</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Attendee_solution__c.Festival__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

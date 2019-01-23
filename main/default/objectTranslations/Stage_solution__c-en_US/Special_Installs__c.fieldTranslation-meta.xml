@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Special Installs --></label>
+    <name>Special_Installs__c</name>
+    <picklistValues>
+        <masterLabel>Art Installation</masterLabel>
+        <translation><!-- Art Installation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extra Subwoofers</masterLabel>
+        <translation><!-- Extra Subwoofers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lasers</masterLabel>
+        <translation><!-- Lasers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multiple Drumsets</masterLabel>
+        <translation><!-- Multiple Drumsets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pyrotechnics</masterLabel>
+        <translation><!-- Pyrotechnics --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Smoke Machines</masterLabel>
+        <translation><!-- Smoke Machines --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

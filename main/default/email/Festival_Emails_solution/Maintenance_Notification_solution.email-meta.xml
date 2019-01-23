@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the email template for when workflow notifies the Maintenance Worker of their ticket.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Maintenance Notification (solution)</name>
+    <style>none</style>
+    <subject>Maintenance Ticket Assigned to You</subject>
+    <textOnly>Hello {!Maintenance_Ticket_solution__c.Maintenance_Worker__c},
+
+The maintenance ticket {!Maintenance_Ticket_solution__c.Name} has been assigned to you.
+
+What does it entail?
+{!Maintenance_Ticket_solution__c.Description__c}
+
+Priority?
+{!Maintenance_Ticket_solution__c.Priority__c}
+Please mark your open task as closed in order to close out the ticket.
+
+Thanks!
+Festival Management</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

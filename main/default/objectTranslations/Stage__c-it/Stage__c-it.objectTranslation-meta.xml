@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Stage</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Stages</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Layout Stage</layout>
+        <sections>
+            <label><!-- Link personalizzati --></label>
+            <section>Link personalizzati</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add a set time --></label>
+        <name>Add_a_set_time</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

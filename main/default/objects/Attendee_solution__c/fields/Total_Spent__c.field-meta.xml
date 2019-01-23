@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Spent__c</fullName>
+    <description>This determines how much the attendee spent on the amount of tickets they purchased. General admission tickets cost $50, and VIP tickets cost $100.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Ticket_Type__c, &quot;General Admission&quot;), 50 *  Tickets_purchased__c , 100 *  Tickets_purchased__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Spent</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

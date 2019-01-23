@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completion</fullName>
+    <active>true</active>
+    <description>Misurare il raggiungimento di un obiettivo in base al fatto che la metrica sia completata o meno. Ideale per tenere traccia dei punti salienti, oppure quando non si hanno metriche basate su cifre accurate. Ad esempio: Ottenere la certificazione Salesforce.</description>
+    <label>Completamento</label>
+</RecordType>

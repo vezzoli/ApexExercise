@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Change_status_to_confirm</fullName>
+        <field>Status__c</field>
+        <literalValue>Confirmed</literalValue>
+        <name>Change status to confirm</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_status_to_in_review</fullName>
+        <field>Status__c</field>
+        <literalValue>In Review</literalValue>
+        <name>Change status to in review</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_status_to_new</fullName>
+        <field>Status__c</field>
+        <literalValue>New</literalValue>
+        <name>Change status to new</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_to_status_cancelled</fullName>
+        <field>Status__c</field>
+        <literalValue>Cancelled</literalValue>
+        <name>Change to status cancelled</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+</Workflow>
