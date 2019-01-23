@@ -52,4 +52,12 @@
         <name>standard__LightningInstrumentation</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>standard__LightningSales</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>DreamHouse</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
