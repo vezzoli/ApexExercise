@@ -124,6 +124,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>EmailMissionSpecialist</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>HandlerAddTwoNumbers</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -257,6 +261,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>SlackOpportunityPublisherTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestTShirts</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>false</custom>
@@ -1348,6 +1356,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Lead.DoNotCall</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Dupe_Contact__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
