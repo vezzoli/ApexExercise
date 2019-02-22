@@ -2,6 +2,7 @@ public class Kid
 {
     private String name;
     private Boolean isMyKid;
+    public Integer age;
      
     public Kid(String name, Boolean isMyKid)
     {
